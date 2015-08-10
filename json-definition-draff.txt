@@ -1,0 +1,33 @@
+Especificación del JSON que representa un DFD
+10-07-2015
+
+El JSON principal es un objeto, con 2 propiedades.
+
+{
+main: {start : object} 
+subprograms: array
+}
+
+main define el flujo principal, el cual es el que se ejecuta, dentro esta el objeto start que prepresenta el inicio
+subprograms define un arreglo que rutinas que pertenecen a el algoritmo
+
+Objeto main.start:
+{
+type: string
+name: string
+description: string
+flow: array
+}
+
+type define el tipo de objeto , en este caso objeto start
+name define el nombre del algoritmo (dfd)
+description define un texto explicativo de la función del algoritmo
+flow un arreglo de objetos que representan las acciones del flujo (asignaciones, ciclos, condicionales)
+
+Algunos de esos objetos tambien pueden contener flujos (ciclos, condiciones, subprogramas).. 
+
+
+
+
+
+
