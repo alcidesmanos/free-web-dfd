@@ -26,6 +26,8 @@ flow un arreglo de objetos que representan las acciones del flujo (asignaciones,
 
 Algunos de esos objetos tambien pueden contener flujos (ciclos, condiciones, subprogramas).. 
 
+Se me acabo el tiempo libre, continuara ...
+
 
 
 
