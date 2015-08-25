@@ -1,10 +1,9 @@
 # free-web-dfd
-Diseñador de diagramas de flujos de datos en interface WEB, el cual permite su ejecución, exportación e importación y 
-un resto de cosas que se me ocurran o seles ocurran a los que me apoyen...
+Diseñador de diagramas de flujos de datos en interface WEB.
 
-Hola, soy amante de los algoritmos y espero que los que lleguen a este proyecto tambien lo sean.
+Permitira su diseño, ejecución, guardar en JSON, importar JSON y DFD, imprimir
 
-Cuando me enseñaron algoritmia fue muy duro para mi entender las estructuras de datos, probarlas y testearlas, y en esa epoca conoci el programa freedfd
+Cuando estudie algoritmia fue muy duro para mi entender las estructuras de datos, probarlas y testearlas, hasta que conoci el programa freedfd
 
 https://github.com/arhuaco/freedfd
 
@@ -16,9 +15,9 @@ Tengo la fortuna de conocer a sus autores pues estudiamos en la super mega hiper
 
 Saludes a Ellos : Nelson, Eduardo y Fabian ... aunque no se si todos ellos me recuerden :D 
 
-Bueno entrando un poco más en contexto.
 
 Se publicaran fuentes a medida que las tenga testeadas y documentadas.
+
 Yo trabajo en java, pero como es algoritmia , los convertidores se pueden trabajar en otros lenguajes abriendo una sección para ellos.
 
 Requerimientos para java.
@@ -27,8 +26,8 @@ Eclipse o Netbeans con el plugin de Gradle instalado
 Librerias de terceros
 Definidas en el archivo gradle , en general jdom, json, slf4j
 
-Como homenaje a esta herramienta, quize antes de todo ser capaz de cargar y graficar un archivo DFD diseñado en ella,
-en la aplicación WEB que desarrollara.
+Como homenaje a freedfd, quize antes de todo ser capaz de cargar y graficar un archivo DFD diseñado en ella,
+en la aplicación WEB que esta en desarrollo.
 
 Lo primero que se analizo es la forma como freedfd almacena los archivos .dfd, 
 como no hay una documentación del tema se uso el codigo fuente como insumo.
@@ -42,31 +41,13 @@ Despúes de trabajar aplicaciones WEB con javascript, trabajar una definición c
 así que procedi a una definición en JSON igual, seria muy bueno definir este formato en un estandar para su documentación y validación.
 http://json-schema.org/
 
-Se publicaran inicialmente se publicaran los XML y JSON generados para sus observaciones y comentarios.
+Se publicaran inicialmente se publicaran imagenes del diseño y  JSON generados para sus observaciones y comentarios.
 para hacer los ajustes y publicar la version beta, definitiva para arrancar el proyecto.
 
 ASI: 
-
-samples/xml
 samples/dfd
 samples/json
 
-
+Se cancela trabajo con XML, para tener un alcance mas corto.
 
 y contendran los archivos definidos en el proyecto freedfd migrados
-
-Se que me sali un poco del objetivo de un readme, pero tenia que empezar por algo, pues y pues asi encontrar quienes leen realmente :D.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
