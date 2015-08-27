@@ -51,3 +51,13 @@ samples/json
 Se cancela trabajo con XML, para tener un alcance mas corto.
 
 y contendran los archivos definidos en el proyecto freedfd migrados
+
+Nueva pagina en facebook para manejo de redes sociales.
+      https://www.facebook.com/freedfdweb
+Funcionalidades recientes:
+Abrir json y DFD, Guardar json, Imprimir diagrama, Manejo de multi idiomas, integración con facebook.
+Proximas funcionalidades: borrar, copiar , cortar y pegar ... 
+Futuras actualizaciones (Actualización de cuadros de dialogos de propiedades), mejoras en apariencia.
+Más futuras deshacer, rehacer
+y más alla EJECUTAR ALGORITMOS...
+
